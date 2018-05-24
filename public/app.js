@@ -53,7 +53,7 @@ function redraw() {
     for (const paintKey in paintObj) {
         if (paintObj.hasOwnProperty(paintKey)) {
             const element = paintObj[paintKey];
-            console.log("REDRAW", paintKey, element);
+            // console.log("REDRAW", paintKey, element);
 
             for (let i = 0; i < element.clickX.length; i++) {
                 context.beginPath();
